@@ -6,7 +6,7 @@
     "scenes": [
         {
             "name": "Menu",
-            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+            "backgroundId": "b49ea566-b022-478c-979d-ec3ee255fdc5",
             "width": 20,
             "height": 18,
             "type": "POINTNCLICK",
@@ -24,7 +24,7 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "6add7ca1-2ab2-4b95-9958-6ff94029f339"
+            "playerSpriteSheetId": "3778fc5e-921e-4cc6-ac4e-7dfd74c359c8"
         },
         {
             "name": "Weapon Selection",
