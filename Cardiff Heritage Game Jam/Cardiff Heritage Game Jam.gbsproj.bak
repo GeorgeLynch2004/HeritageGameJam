@@ -1,15 +1,15 @@
 {
     "name": "Cardiff Heritage Game Jam",
-    "author": "georg",
+    "author": "george",
     "_version": "4.0.0",
     "_release": "4",
     "scenes": [
         {
             "name": "Menu",
-            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+            "backgroundId": "93d8839f-c19c-4eb2-a386-b0bb77068521",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "POINTNCLICK",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
@@ -23,7 +23,8 @@
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "6add7ca1-2ab2-4b95-9958-6ff94029f339"
         },
         {
             "name": "Weapon Selection",
@@ -1397,9 +1398,9 @@
             "type": "static"
         },
         {
-            "id": "6add7ca1-2ab2-4b95-9958-6ff94029f339",
+            "id": "3778fc5e-921e-4cc6-ac4e-7dfd74c359c8",
             "name": "Crosshair",
-            "symbol": "sprite_new_piskel",
+            "symbol": "sprite_crosshair",
             "numFrames": 1,
             "filename": "Crosshair.png",
             "checksum": "4169cd4b800e7a9358126163bdf1c84db4e62382",
@@ -1407,19 +1408,19 @@
             "height": 16,
             "states": [
                 {
-                    "id": "9fa67d53-c1d9-440f-a07c-4ed8363eaa31",
+                    "id": "b1216f7f-e11d-411b-8a6a-aef08e02c7ba",
                     "name": "",
                     "animationType": "fixed",
                     "flipLeft": false,
                     "animations": [
                         {
-                            "id": "37723cd0-872a-4520-816d-1ff0cc7719fa",
+                            "id": "20ed9d6e-bb8b-4e7b-909c-d863487f5aaa",
                             "frames": [
                                 {
-                                    "id": "4c07f3db-ba10-4998-9809-8a111693ec27",
+                                    "id": "b423eac6-b97f-4bd8-a046-c84830e80c8f",
                                     "tiles": [
                                         {
-                                            "id": "b676792d-0fe6-429b-ae03-b9763a2051fc",
+                                            "id": "028f419e-9523-40f7-8e7a-12e8da7044db",
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 0,
@@ -1432,7 +1433,7 @@
                                             "priority": false
                                         },
                                         {
-                                            "id": "a973c489-8516-4dc2-89a8-26a691090cc1",
+                                            "id": "fc56ecd3-00bf-4226-9f19-70b5c4414bbc",
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 8,
@@ -1449,64 +1450,64 @@
                             ]
                         },
                         {
-                            "id": "24df6996-e638-41d3-bb9f-2de1bafac884",
+                            "id": "f741c7a4-890e-4d97-aaf6-7775611f368b",
                             "frames": [
                                 {
-                                    "id": "24b89555-d391-47a1-a6d1-f6ab3013eca7",
+                                    "id": "e13f91a7-803b-4c13-80f1-a4fb48981cc7",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "062c3c45-f07b-4c8e-b4e6-1b98d9dd6fe0",
+                            "id": "ac82c0d7-2917-416d-a8ed-8ebf7de0a748",
                             "frames": [
                                 {
-                                    "id": "5c5e4ffd-2bf3-41f9-a049-133791dfb872",
+                                    "id": "b7854e41-7edc-4807-8cc0-44d4f221aa52",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "86c01240-00d5-4d6f-a867-8ee48e33d00b",
+                            "id": "a677b375-aff0-4bf8-b46b-d5af03436f63",
                             "frames": [
                                 {
-                                    "id": "77a09f51-ef7c-4e98-8c6a-be59aee8cc60",
+                                    "id": "e7f0af63-de7d-46b5-a916-77ae20203e94",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "475c3200-09ed-4ffd-9455-fb2484252a95",
+                            "id": "45ad8b69-efe9-4d35-9dbc-5c2797ac2324",
                             "frames": [
                                 {
-                                    "id": "561e38d1-6b72-4f3f-ad31-690a7642bc07",
+                                    "id": "7b4a5343-6092-4d82-b879-7c44bb4cfb5c",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "20a4aed3-fd00-4190-95b9-94e1fa1210fb",
+                            "id": "f6753657-7658-4aaa-ae41-9d9c7eaa9f90",
                             "frames": [
                                 {
-                                    "id": "ae64c4c6-2ebb-4f21-9531-30995652f542",
+                                    "id": "0a482aac-034e-41d6-a0ff-a21dfa07d2cc",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "5373ae6d-2c41-42d6-81b2-40201962d71d",
+                            "id": "8a9280dc-d94e-46f3-9f9c-bb70210dab3f",
                             "frames": [
                                 {
-                                    "id": "24384047-0d7b-4fbb-b526-deeacea94096",
+                                    "id": "058e172a-ac6f-489e-b849-5800db5eea13",
                                     "tiles": []
                                 }
                             ]
                         },
                         {
-                            "id": "523efa82-7d48-4732-b019-95b9af23d827",
+                            "id": "a9a4964f-f74e-4049-9909-c9dd475eedf3",
                             "frames": [
                                 {
-                                    "id": "05431795-a47e-45c8-a618-a128c2088191",
+                                    "id": "2c613194-da49-47bb-9dd0-6a1311b0dc26",
                                     "tiles": []
                                 }
                             ]
@@ -3960,18 +3961,8 @@
     ],
     "settings": {
         "startSceneId": "443c1bae-1492-4262-9732-8e981454e761",
-<<<<<<< Updated upstream
-        "startX": 3,
-        "startY": 2,
-=======
-<<<<<<< HEAD
         "startX": 8,
         "startY": 16,
-=======
-        "startX": 3,
-        "startY": 2,
->>>>>>> 8e046a044b2633b195b10485d93127c0a2cb214a
->>>>>>> Stashed changes
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "up",
@@ -3979,22 +3970,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-<<<<<<< Updated upstream
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 77.40700403973324,
-=======
-<<<<<<< HEAD
-        "worldScrollX": 507,
-        "worldScrollY": 158,
-        "zoom": 257.8837720006677,
-        "customColorsEnabled": true,
-=======
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 77.40700403973324,
->>>>>>> 8e046a044b2633b195b10485d93127c0a2cb214a
->>>>>>> Stashed changes
+        "worldScrollX": 356,
+        "worldScrollY": 188,
+        "zoom": 162.81062932312216,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [

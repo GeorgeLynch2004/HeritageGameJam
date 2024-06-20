@@ -6,7 +6,7 @@
     "scenes": [
         {
             "name": "Menu",
-            "backgroundId": "93d8839f-c19c-4eb2-a386-b0bb77068521",
+            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
             "width": 20,
             "height": 18,
             "type": "POINTNCLICK",
@@ -3970,9 +3970,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 356,
-        "worldScrollY": 188,
-        "zoom": 162.81062932312216,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 72.41734887659277,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
