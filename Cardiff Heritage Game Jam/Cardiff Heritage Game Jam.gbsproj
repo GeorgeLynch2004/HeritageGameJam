@@ -3961,18 +3961,30 @@
     ],
     "settings": {
         "startSceneId": "443c1bae-1492-4262-9732-8e981454e761",
+<<<<<<< HEAD
+        "startX": 8,
+        "startY": 16,
+=======
         "startX": 3,
         "startY": 2,
+>>>>>>> 8e046a044b2633b195b10485d93127c0a2cb214a
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
-        "startDirection": "right",
+        "startDirection": "up",
         "showCollisions": true,
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
+<<<<<<< HEAD
+        "worldScrollX": 507,
+        "worldScrollY": 158,
+        "zoom": 257.8837720006677,
+        "customColorsEnabled": true,
+=======
         "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 77.40700403973324,
+>>>>>>> 8e046a044b2633b195b10485d93127c0a2cb214a
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
