@@ -1,15 +1,15 @@
 {
     "name": "Cardiff Heritage Game Jam",
-    "author": "georg",
+    "author": "george",
     "_version": "4.0.0",
     "_release": "4",
     "scenes": [
         {
             "name": "Menu",
-            "backgroundId": "1da35172-aea4-40b4-8215-7992d9245b34",
+            "backgroundId": "93d8839f-c19c-4eb2-a386-b0bb77068521",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "POINTNCLICK",
             "paletteIds": [],
             "spritePaletteIds": [],
             "collisions": [],
@@ -23,7 +23,8 @@
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "6add7ca1-2ab2-4b95-9958-6ff94029f339"
         },
         {
             "name": "Weapon Selection",
