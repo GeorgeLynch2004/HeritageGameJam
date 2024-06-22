@@ -96,7 +96,7 @@
         },
         {
             "name": "Level1",
-            "backgroundId": "93d8839f-c19c-4eb2-a386-b0bb77068521",
+            "backgroundId": "4ece0bf4-5ab6-4591-b0d0-9ab4077b4422",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -129,8 +129,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "768ae7a7-80ed-4497-8182-ea94d75c7852",
-                    "x": 7,
-                    "y": 5
+                    "x": 18,
+                    "y": 7
                 }
             ],
             "triggers": [],
@@ -191,7 +191,9 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Background.png"
+            "filename": "Background.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "1da35172-aea4-40b4-8215-7992d9245b34",
@@ -565,6 +567,17 @@
                 0
             ],
             "autoColor": false
+        },
+        {
+            "id": "4ece0bf4-5ab6-4591-b0d0-9ab4077b4422",
+            "name": "Level1_Background",
+            "symbol": "bg_level1_background",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Level1_Background.png",
+            "tileColors": []
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -5608,9 +5621,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 1.600000023841858,
-        "zoom": 137.85705214248355,
+        "worldScrollX": 995,
+        "worldScrollY": 1734,
+        "zoom": 437.85704069839176,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
