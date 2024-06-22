@@ -581,6 +581,16 @@
             "autoColor": false
         },
         {
+            "id": "1327e921-4c01-4885-80fb-e3d520a09dc0",
+            "name": "Level2_Background",
+            "symbol": "bg_level2_background",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Level2_Background.png"
+        },
+        {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
             "name": "logo",
             "symbol": "bg_logo",
@@ -5622,9 +5632,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 109.5999984741211,
-        "worldScrollY": 59.20000076293945,
-        "zoom": 137.85705214248355,
+        "worldScrollX": 768,
+        "worldScrollY": 911,
+        "zoom": 271.19038038955387,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -5709,7 +5719,7 @@
         "customControlsSelect": [
             "Shift"
         ],
-        "debuggerEnabled": true,
+        "debuggerEnabled": false,
         "debuggerScriptType": "editor",
         "debuggerVariablesFilter": "all",
         "debuggerCollapsedPanes": [],
