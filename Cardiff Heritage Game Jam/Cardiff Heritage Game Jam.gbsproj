@@ -5622,9 +5622,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 109.5999984741211,
-        "worldScrollY": 59.20000076293945,
-        "zoom": 137.85705214248355,
+        "worldScrollX": 565,
+        "worldScrollY": 1265,
+        "zoom": 337.857044513089,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -5709,7 +5709,7 @@
         "customControlsSelect": [
             "Shift"
         ],
-        "debuggerEnabled": true,
+        "debuggerEnabled": false,
         "debuggerScriptType": "editor",
         "debuggerVariablesFilter": "all",
         "debuggerCollapsedPanes": [],
