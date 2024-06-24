@@ -204,7 +204,7 @@
                             "command": "EVENT_ACTOR_SET_SPRITE",
                             "args": {
                                 "actorId": "597d68ec-6a2d-4b6c-ba0e-f538f8f982b7",
-                                "spriteSheetId": "6f6c7e71-5e77-402f-a990-8fd5b8c3ed31"
+                                "spriteSheetId": "7d06a552-8d8c-40e5-9946-83ac60239b58"
                             },
                             "id": "c5eeec03-68a9-4c43-a047-dce1e8bf16e8"
                         },
@@ -307,29 +307,6 @@
                     "id": "06031059-6c85-4e93-8a29-e04510ffc562",
                     "x": 2,
                     "y": 5
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "7d06a552-8d8c-40e5-9946-83ac60239b58",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_8",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "9a7a6c19-6c0a-425a-a218-48ac0329b5aa",
-                    "x": 9,
-                    "y": 15
                 }
             ],
             "triggers": [],
@@ -5067,7 +5044,7 @@
             "symbol": "sprite_crossbow",
             "numFrames": 4,
             "filename": "Crossbow.png",
-            "checksum": "90c00e110eb712a01b130f19ee821ea116088a94",
+            "checksum": "dd876f0ea472576ef1ec316763a0fa0e9a937c17",
             "width": 64,
             "height": 64,
             "states": [
@@ -5569,7 +5546,7 @@
                     ]
                 }
             ],
-            "numTiles": 0,
+            "numTiles": 12,
             "canvasWidth": 64,
             "canvasHeight": 64,
             "boundsX": -24,
@@ -9652,9 +9629,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 558.4000244140625,
-        "worldScrollY": 123.19999694824219,
-        "zoom": 175,
+        "worldScrollX": 2216,
+        "worldScrollY": 693.5999755859375,
+        "zoom": 425,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
