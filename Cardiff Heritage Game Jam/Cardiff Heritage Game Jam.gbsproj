@@ -173,7 +173,7 @@
                     "y": 5
                 },
                 {
-                    "name": "",
+                    "name": "Continue Button",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -1427,7 +1427,7 @@
                     "y": 3
                 },
                 {
-                    "name": "",
+                    "name": "Kill Counter",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "a02e16e7-28ec-4428-a5c7-2d3f1d5b89fa",
@@ -1853,7 +1853,7 @@
             "y": 240,
             "actors": [
                 {
-                    "name": "",
+                    "name": "Target 1",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "eb20afc7-6a37-4dc1-a266-24c7aad6c63a",
@@ -1929,7 +1929,7 @@
                     "y": 10
                 },
                 {
-                    "name": "",
+                    "name": "Target 2",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "eb20afc7-6a37-4dc1-a266-24c7aad6c63a",
@@ -2001,7 +2001,7 @@
                     "y": 14
                 },
                 {
-                    "name": "",
+                    "name": "Target 3",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "eb20afc7-6a37-4dc1-a266-24c7aad6c63a",
@@ -2073,7 +2073,7 @@
                     "y": 15
                 },
                 {
-                    "name": "",
+                    "name": "Target 4",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "eb20afc7-6a37-4dc1-a266-24c7aad6c63a",
@@ -2145,7 +2145,7 @@
                     "y": 11
                 },
                 {
-                    "name": "",
+                    "name": "Target 5",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "eb20afc7-6a37-4dc1-a266-24c7aad6c63a",
@@ -2217,7 +2217,7 @@
                     "y": 15
                 },
                 {
-                    "name": "",
+                    "name": "Target 6",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "eb20afc7-6a37-4dc1-a266-24c7aad6c63a",
@@ -2289,7 +2289,7 @@
                     "y": 10
                 },
                 {
-                    "name": "",
+                    "name": "Target 7",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "eb20afc7-6a37-4dc1-a266-24c7aad6c63a",
@@ -2361,7 +2361,7 @@
                     "y": 15
                 },
                 {
-                    "name": "",
+                    "name": "Target 8",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "eb20afc7-6a37-4dc1-a266-24c7aad6c63a",
@@ -2984,7 +2984,7 @@
                     "y": 5
                 },
                 {
-                    "name": "",
+                    "name": "Continue Button",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -3305,7 +3305,7 @@
                     "y": 5
                 },
                 {
-                    "name": "",
+                    "name": "Continue Button",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -10029,9 +10029,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 320,
-        "worldScrollY": 64.66666412353516,
-        "zoom": 104.38638747132518,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 58.55270052350079,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -10058,9 +10058,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            274,
+            538,
             30,
-            294
+            30
         ],
         "showNavigator": true,
         "defaultFontId": "948c169c-8e4b-491c-a5f0-66898bbf45d9",
