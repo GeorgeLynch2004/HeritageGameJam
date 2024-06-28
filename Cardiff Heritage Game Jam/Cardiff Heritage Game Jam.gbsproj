@@ -9650,6 +9650,206 @@
             "animSpeed": 15
         },
         {
+            "id": "bf702106-b4de-4bb4-b42c-fe3ff88de452",
+            "name": "Dragon test",
+            "symbol": "sprite_dragon_test",
+            "numFrames": 8.0625,
+            "filename": "Dragon test.png",
+            "checksum": "48eb4d4b8b450c985d4a718e5d0bcdcc53d56f10",
+            "width": 129,
+            "height": 245,
+            "states": [
+                {
+                    "id": "8482bbd3-8718-4aec-8665-44a85d22c282",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "a2d43146-411b-4d8b-b3fb-39e31b4c544f",
+                            "frames": [
+                                {
+                                    "id": "8275b636-edb4-4a5c-b06d-641c23951915",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ed855425-db20-4a95-aaeb-5d4d3405ac57",
+                            "frames": [
+                                {
+                                    "id": "5551b843-54d5-417e-b645-cc049a4601d8",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b22155d7-17d3-44f9-b1fc-35a0c43a628e",
+                            "frames": [
+                                {
+                                    "id": "28f6d2fc-e847-45a5-94bb-f0f2b2f03bc3",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "99d75635-ffc9-4b9f-a2a5-1def0a3e80ed",
+                            "frames": [
+                                {
+                                    "id": "c6c414bc-3e42-4a93-96ac-0e9661058e73",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e92c2635-a777-4a9e-badb-c5064e030cf0",
+                            "frames": [
+                                {
+                                    "id": "b8d24a43-ebd7-48cf-bb15-578cff8e5c5e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "80ab0e6c-bb34-4d8a-9b0f-f431518895fa",
+                            "frames": [
+                                {
+                                    "id": "89ef4845-4a66-4945-a495-1e37b8026ed9",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "990629bf-033a-424f-a050-8691c106c892",
+                            "frames": [
+                                {
+                                    "id": "7e53e062-ae1a-4b61-a4bd-ccdd95c43b7f",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d94b3ce0-808d-477c-9b88-a1e472cd41eb",
+                            "frames": [
+                                {
+                                    "id": "44cc517d-d9f1-408e-9810-40f7b012e80b",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
+            "id": "75b7cc7b-0b1d-4802-a0ea-1bceb633ad3c",
+            "name": "Dragon",
+            "symbol": "sprite_dragon",
+            "numFrames": 10,
+            "filename": "Dragon.png",
+            "checksum": "47610c706a77ab3ea2878b13e7e53802741db2ac",
+            "width": 160,
+            "height": 142,
+            "states": [
+                {
+                    "id": "5472f3f2-061f-481a-a3a1-7e6521db2742",
+                    "name": "",
+                    "animationType": "multi_movement",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "b2fa6e28-1bd4-4f0a-b0c1-c38982963bb0",
+                            "frames": [
+                                {
+                                    "id": "24ee553f-70ca-440d-9fdd-837c93b0da69",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7149ad10-e14e-4c5e-8b57-6fc276850f08",
+                            "frames": [
+                                {
+                                    "id": "b9213041-b873-4f93-9e10-04f1f51fedf9",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "a475bcc9-e3db-46d2-bb80-c72978157059",
+                            "frames": [
+                                {
+                                    "id": "393b66ab-5d14-4ef9-9bc4-eb211fba0da9",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "201b80a7-81a0-4b0a-a9ab-a21525ccd620",
+                            "frames": [
+                                {
+                                    "id": "3240d4f4-6c6a-4f24-be5a-4492b9111e32",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "40f575d4-a4ba-40d6-a45a-b7eba52836b6",
+                            "frames": [
+                                {
+                                    "id": "9c59a986-db69-435c-b251-14215c4e8807",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c6b2ac02-72d4-4911-90e3-1c647fd3010d",
+                            "frames": [
+                                {
+                                    "id": "19fc4c2e-ce9b-4b67-8182-1eb7cc701e05",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "9aae18e0-e2cf-42ed-b5a7-70d44accb875",
+                            "frames": [
+                                {
+                                    "id": "a834f24d-aca4-4ebe-af72-ec244480d66a",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ac38f07d-ea43-41e3-ba33-5c1303acdaf8",
+                            "frames": [
+                                {
+                                    "id": "19340e85-7cd8-4cf7-9f94-e524f40e4743",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
             "name": "duck",
             "symbol": "sprite_duck",
@@ -13304,9 +13504,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 394.6666564941406,
-        "worldScrollY": 454,
-        "zoom": 117.08846987431843,
+        "worldScrollX": 1014,
+        "worldScrollY": 1174,
+        "zoom": 200.7691848391787,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
