@@ -1844,7 +1844,16 @@
             "height": 18,
             "type": "POINTNCLICK",
             "paletteIds": [],
-            "spritePaletteIds": [],
+            "spritePaletteIds": [
+                null,
+                "",
+                null,
+                null,
+                null,
+                null,
+                null,
+                "0cae84a7-ed50-4b05-b39a-66be5af7ffd2"
+            ],
             "collisions": [],
             "autoFadeSpeed": 1,
             "id": "a478815a-f03b-4975-9803-74ceea929ebf",
@@ -6078,7 +6087,15 @@
                             "id": "71d2a58e-9760-4f3f-b0f1-c65618878aa3"
                         }
                     ],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "330eb445-ea2f-49ac-889f-c42172447c6b"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -6261,9 +6278,9 @@
             "tilesetId": "",
             "width": 20,
             "height": 18,
-            "type": "TOPDOWN",
+            "type": "POINTNCLICK",
             "paletteIds": [
-                "default-bg-1"
+                "dmg"
             ],
             "spritePaletteIds": [],
             "collisions": [],
@@ -6288,6 +6305,16 @@
                     "symbol": "actor_42",
                     "script": [
                         {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You have found the\ndragon egg!\nPrepare for the fight!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "e71780eb-4e61-4bc7-ab8e-bf4d7a310fb5"
+                        },
+                        {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "dd996678-6f37-4380-95c5-83b74366e894",
@@ -6311,8 +6338,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "91f0f81b-72a2-4f0e-9ea9-19f02fbe0d32",
-                    "x": 16,
-                    "y": 13
+                    "x": 18,
+                    "y": 7
                 }
             ],
             "triggers": [],
@@ -8128,7 +8155,20 @@
             "imageHeight": 144,
             "filename": "Great Hall.png",
             "tileColors": [],
-            "autoColor": false
+            "autoColor": false,
+            "numFrames": 10,
+            "checksum": "49007dbadd00e3804d94369ca114d76b544c9eeb",
+            "states": [
+                "7f329f8b-ad9b-49ab-afc3-82317f22c572"
+            ],
+            "numTiles": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 32,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
         },
         {
             "id": "4ece0bf4-5ab6-4591-b0d0-9ab4077b4422",
@@ -8586,6 +8626,16 @@
             "filename": "menu.png",
             "tileColors": [],
             "autoColor": false
+        },
+        {
+            "id": "c83c78f7-fc3e-4604-b7cd-0fe10b74d222",
+            "name": "Old Great Hall",
+            "symbol": "bg_old_great_hall",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Old Great Hall.png"
         },
         {
             "id": "9a0c490e-c0dc-44e3-9cf5-c923a589e29c",
@@ -10550,7 +10600,7 @@
                     ]
                 }
             ],
-            "numTiles": 12,
+            "numTiles": 13,
             "canvasWidth": 64,
             "canvasHeight": 64,
             "boundsX": -24,
@@ -10905,7 +10955,7 @@
             "symbol": "sprite_dragon_egg",
             "numFrames": 1,
             "filename": "Dragon Egg.png",
-            "checksum": "f55ced4fe9a13713274cfe8ed41d75d231cf9300",
+            "checksum": "2c767c05b6854e4ce6c2bc867b4376374cffc566",
             "width": 16,
             "height": 16,
             "states": [
@@ -10923,7 +10973,7 @@
                                     "tiles": [
                                         {
                                             "id": "8ad6e980-2d93-43b3-a483-21eef0ee957b",
-                                            "x": 0,
+                                            "x": -2,
                                             "y": 0,
                                             "sliceX": 0,
                                             "sliceY": 0,
@@ -10936,7 +10986,7 @@
                                         },
                                         {
                                             "id": "0990a67a-23ba-4654-bacf-10cdb1ff0bb6",
-                                            "x": 8,
+                                            "x": 4,
                                             "y": 0,
                                             "sliceX": 8,
                                             "sliceY": 0,
@@ -11017,7 +11067,7 @@
                     ]
                 }
             ],
-            "numTiles": 0,
+            "numTiles": 1,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -12687,6 +12737,10 @@
                                             "priority": false
                                         }
                                     ]
+                                },
+                                {
+                                    "id": "c771f60b-ce3b-4e4c-be04-a85c841f0c39",
+                                    "tiles": []
                                 }
                             ]
                         },
@@ -14512,7 +14566,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         },
                                         {
@@ -14525,7 +14579,7 @@
                                             "flipX": false,
                                             "flipY": false,
                                             "objPalette": "OBP0",
-                                            "paletteIndex": 0,
+                                            "paletteIndex": 7,
                                             "priority": false
                                         }
                                     ]
@@ -15305,7 +15359,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "dd996678-6f37-4380-95c5-83b74366e894",
+        "startSceneId": "a478815a-f03b-4975-9803-74ceea929ebf",
         "startX": 17,
         "startY": 0,
         "startMoveSpeed": 1,
@@ -15315,9 +15369,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1638,
-        "worldScrollY": 1931.3333740234375,
-        "zoom": 288.8324024791018,
+        "worldScrollX": 1828.800048828125,
+        "worldScrollY": 733.5999755859375,
+        "zoom": 362.5,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
