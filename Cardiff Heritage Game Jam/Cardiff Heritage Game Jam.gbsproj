@@ -6828,67 +6828,7 @@
                     "y": 8
                 }
             ],
-            "triggers": [
-                {
-                    "name": "",
-                    "id": "e9c7756d-f650-4b3f-9f6b-e5c163f87e75",
-                    "x": 6,
-                    "y": 9,
-                    "symbol": "trigger_3",
-                    "width": 1,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Select the Ballista as your defence against the King. It takes eight soldiers to load, so you must hurry!"
-                                ],
-                                "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516"
-                            },
-                            "id": "22b36db7-22b9-4fbd-b1dd-1dd51578185d"
-                        },
-                        {
-                            "command": "EVENT_SET_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "b",
-                                    "right",
-                                    "start",
-                                    "up",
-                                    "down",
-                                    "left"
-                                ],
-                                "override": true,
-                                "__scriptTabs": "press"
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SWITCH_SCENE",
-                                        "args": {
-                                            "sceneId": "70e23845-39da-4061-830d-f3f655f323b6",
-                                            "x": {
-                                                "type": "number",
-                                                "value": 0
-                                            },
-                                            "y": {
-                                                "type": "number",
-                                                "value": 0
-                                            },
-                                            "direction": "",
-                                            "fadeSpeed": "2"
-                                        },
-                                        "id": "6b24a461-b879-4856-98e3-f46a53c39e10"
-                                    }
-                                ]
-                            },
-                            "id": "be5bb64f-a1d3-4c3f-8622-86a4e18b2557"
-                        }
-                    ],
-                    "leaveScript": []
-                }
-            ],
+            "triggers": [],
             "script": [
                 {
                     "command": "EVENT_SET_VALUE",
@@ -6965,86 +6905,9 @@
                     "id": "91f0f81b-72a2-4f0e-9ea9-19f02fbe0d32",
                     "x": 16,
                     "y": 13
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_54",
-                    "script": [
-                        {
-                            "command": "EVENT_PLAYER_BOUNCE",
-                            "args": {
-                                "height": "high"
-                            },
-                            "id": "3db598c8-1abc-46a0-b1e2-62df30ffa645"
-                        },
-                        {
-                            "command": "EVENT_MUSIC_PLAY",
-                            "args": {
-                                "musicId": "70e1f522-3675-4939-8f23-5c3ab1f0f595"
-                            },
-                            "id": "0eddf776-bc07-40e7-896b-912f7b3c6ac9"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "30332f1a-532c-4858-a89f-c76b0609ae84",
-                    "x": 9,
-                    "y": 12
                 }
             ],
-            "triggers": [
-                {
-                    "name": "",
-                    "id": "beecbed5-3e18-42c7-8b13-02b8223c75df",
-                    "x": 5,
-                    "y": 13,
-                    "symbol": "trigger_2",
-                    "width": 1,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "You have made it to The Great Hall, victory and The Vale of Glamorgan is all yours!!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "30574187-550e-4990-8a22-fb7ffc0eec23"
-                        },
-                        {
-                            "command": "EVENT_SET_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "b",
-                                    "start",
-                                    "right"
-                                ],
-                                "override": true,
-                                "__scriptTabs": "press"
-                            },
-                            "children": {
-                                "true": []
-                            },
-                            "id": "de1b38ed-1ad9-4786-afbe-cecb9970763b"
-                        }
-                    ],
-                    "leaveScript": []
-                }
-            ],
+            "triggers": [],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -15842,7 +15705,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 175,
+        "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 133.446385201265,
         "sgbEnabled": false,
