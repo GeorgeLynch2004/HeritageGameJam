@@ -2642,11 +2642,43 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    ""
+                                    "Congratulations you have made it further than Llywelyn did during his siege of Caerphilly!"
                                 ],
                                 "avatarId": ""
                             },
                             "id": "a541645a-8b79-4950-b646-af906dc52fa7"
+                        },
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "right",
+                                    "down",
+                                    "up",
+                                    "left",
+                                    "start"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_TIMER_SCRIPT",
+                                        "args": {
+                                            "timer": 1,
+                                            "duration": 5,
+                                            "frames": 30,
+                                            "__scriptTabs": "end"
+                                        },
+                                        "children": {
+                                            "script": []
+                                        },
+                                        "id": "7f5c8d95-a03c-4aa0-8601-b3b16c4cafad"
+                                    }
+                                ]
+                            },
+                            "id": "489d33f0-dd20-45b5-96a9-557047fedb19"
                         }
                     ],
                     "leaveScript": []
@@ -8622,64 +8654,7 @@
                     "y": 11
                 }
             ],
-            "triggers": [
-                {
-                    "name": "",
-                    "id": "395eb83e-7bbc-4e69-b889-d62a046ee782",
-                    "x": 8,
-                    "y": 9,
-                    "symbol": "trigger_8",
-                    "width": 1,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "The enemy must have discovered a dragon egg and hatched it as a secret weapon... Quickly defeat the dragon or you will lose the Castle!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "6db66c67-c238-43fe-8ddb-70eaa8c1b481"
-                        },
-                        {
-                            "command": "EVENT_SET_INPUT_SCRIPT",
-                            "args": {
-                                "input": [
-                                    "b",
-                                    "right",
-                                    "down",
-                                    "up",
-                                    "left",
-                                    "start",
-                                    "a"
-                                ],
-                                "override": true,
-                                "__scriptTabs": "press"
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SET_TIMER_SCRIPT",
-                                        "args": {
-                                            "timer": 1,
-                                            "duration": 6,
-                                            "frames": 30,
-                                            "__scriptTabs": "end"
-                                        },
-                                        "children": {
-                                            "script": []
-                                        },
-                                        "id": "b544e40b-f4b2-4775-a37a-2914927b72c5"
-                                    }
-                                ]
-                            },
-                            "id": "f05ff527-6619-4b43-a453-15604322116c"
-                        }
-                    ],
-                    "leaveScript": []
-                }
-            ],
+            "triggers": [],
             "script": [
                 {
                     "command": "EVENT_ACTOR_DEACTIVATE",
@@ -16159,7 +16134,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 283,
-        "worldScrollY": 333.5,
+        "worldScrollY": 116,
         "zoom": 133.446385201265,
         "sgbEnabled": false,
         "customHead": "",
