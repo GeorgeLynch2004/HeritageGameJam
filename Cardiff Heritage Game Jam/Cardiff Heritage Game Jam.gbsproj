@@ -5297,7 +5297,64 @@
                     "y": 0
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "ad78f315-0e52-4426-9a18-9d9ce2650710",
+                    "x": 6,
+                    "y": 12,
+                    "symbol": "trigger_7",
+                    "width": 1,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "You have made it into Caerphilly Castle's Inner Ward, defeat the archers and taste victory!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "f88e2256-fca7-4213-824d-916b405e43e2"
+                        },
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "b",
+                                    "right",
+                                    "down",
+                                    "up",
+                                    "left",
+                                    "start",
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_TIMER_SCRIPT",
+                                        "args": {
+                                            "timer": 1,
+                                            "duration": 3,
+                                            "frames": 30,
+                                            "__scriptTabs": "end"
+                                        },
+                                        "children": {
+                                            "script": []
+                                        },
+                                        "id": "27b32a01-63ee-49f5-8e78-8bf5a34cc21b"
+                                    }
+                                ]
+                            },
+                            "id": "cec6edda-1179-431d-b4a3-4b2307d81287"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [
                 {
                     "command": "EVENT_SET_VALUE",
@@ -8565,7 +8622,64 @@
                     "y": 11
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "395eb83e-7bbc-4e69-b889-d62a046ee782",
+                    "x": 8,
+                    "y": 9,
+                    "symbol": "trigger_8",
+                    "width": 1,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "The enemy must have discovered a dragon egg and hatched it as a secret weapon... Quickly defeat the dragon or you will lose the Castle!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "6db66c67-c238-43fe-8ddb-70eaa8c1b481"
+                        },
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "b",
+                                    "right",
+                                    "down",
+                                    "up",
+                                    "left",
+                                    "start",
+                                    "a"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_TIMER_SCRIPT",
+                                        "args": {
+                                            "timer": 1,
+                                            "duration": 6,
+                                            "frames": 30,
+                                            "__scriptTabs": "end"
+                                        },
+                                        "children": {
+                                            "script": []
+                                        },
+                                        "id": "b544e40b-f4b2-4775-a37a-2914927b72c5"
+                                    }
+                                ]
+                            },
+                            "id": "f05ff527-6619-4b43-a453-15604322116c"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [
                 {
                     "command": "EVENT_ACTOR_DEACTIVATE",
@@ -16044,8 +16158,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 135,
-        "worldScrollY": 206,
+        "worldScrollX": 283,
+        "worldScrollY": 333.5,
         "zoom": 133.446385201265,
         "sgbEnabled": false,
         "customHead": "",

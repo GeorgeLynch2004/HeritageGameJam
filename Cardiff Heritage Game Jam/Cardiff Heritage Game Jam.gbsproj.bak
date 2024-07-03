@@ -321,7 +321,64 @@
                     "y": 8
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "5364418b-2622-4379-a994-b70cc527423b",
+                    "x": 7,
+                    "y": 9,
+                    "symbol": "trigger_6",
+                    "width": 1,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Select the Trebuchet as your weapon and begin the siege... "
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "9ed1a0e7-1961-40ff-add3-bac249b5fe86"
+                        },
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "right",
+                                    "start",
+                                    "up"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "7de6b846-9755-4027-8b97-d0d884560b98",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 0
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 0
+                                            },
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        },
+                                        "id": "4a26e04e-86c2-489a-9f08-b3f8fd12e108"
+                                    }
+                                ]
+                            },
+                            "id": "1d9d38ea-4ed0-4a32-b6fe-e037ed5dc825"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [
                 {
                     "command": "EVENT_SET_VALUE",
@@ -1743,6 +1800,68 @@
                     "id": "dacd9dea-b774-443b-a189-51c35d5529bb",
                     "x": 0,
                     "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
+                    "direction": "down",
+                    "moveSpeed": 3,
+                    "animSpeed": 1,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_55",
+                    "script": [
+                        {
+                            "command": "EVENT_IF_ACTOR_AT_POSITION",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                    "type": "number",
+                                    "value": 0
+                                },
+                                "y": {
+                                    "type": "number",
+                                    "value": 0
+                                },
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "The building of Caerphilly Castle is not complete, our enemy is weak we must act fast."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "469c1a59-de82-4a63-bcd5-5e4a4ac601e2"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "57d29a35-9661-49d4-ac8a-3a9cab52c920"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_DEACTIVATE",
+                            "args": {
+                                "actorId": "$self$"
+                            },
+                            "id": "f95dfd8e-5af6-442c-ae42-cb22cc5606be"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "262d388b-8342-4a76-aba7-5272c66c09d8",
+                    "x": 3,
+                    "y": 15
                 }
             ],
             "triggers": [],
@@ -2509,7 +2628,30 @@
                     "y": 0
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "1ed521bf-157b-4a3e-a49c-46621c09fd43",
+                    "x": 7,
+                    "y": 6,
+                    "symbol": "trigger_4",
+                    "width": 1,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    ""
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "a541645a-8b79-4950-b646-af906dc52fa7"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -6507,7 +6649,67 @@
                     "y": 8
                 }
             ],
-            "triggers": [],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "c0cea2c4-b870-4f6f-8fe2-695df4b74296",
+                    "x": 7,
+                    "y": 10,
+                    "symbol": "trigger_5",
+                    "width": 1,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Select the Crossbow as your weapon, it will be quick to load make sure you optimise it's speed!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "ee228d74-0420-48fd-a4e0-f72bdabbb591"
+                        },
+                        {
+                            "command": "EVENT_SET_INPUT_SCRIPT",
+                            "args": {
+                                "input": [
+                                    "b",
+                                    "right",
+                                    "down",
+                                    "up",
+                                    "left",
+                                    "start"
+                                ],
+                                "override": true,
+                                "__scriptTabs": "press"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "a478815a-f03b-4975-9803-74ceea929ebf",
+                                            "x": {
+                                                "type": "number",
+                                                "value": 0
+                                            },
+                                            "y": {
+                                                "type": "number",
+                                                "value": 0
+                                            },
+                                            "direction": "",
+                                            "fadeSpeed": "2"
+                                        },
+                                        "id": "fb4070e7-e3f1-42f7-9df1-9bcba6a9feb2"
+                                    }
+                                ]
+                            },
+                            "id": "7369c31b-7809-4371-8d19-6ab93bbe6c64"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
             "script": [
                 {
                     "command": "EVENT_SET_VALUE",
@@ -6842,7 +7044,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Select the Ballista as your defence against the King. It takes eight soldiers to load, so you must hurry!"
+                                    "Select the Ballista as your defence against the King. It takes eight to load, so you must hurry!"
                                 ],
                                 "avatarId": "6845dca5-d9d8-472a-93a7-81889d878516"
                             },
@@ -15842,8 +16044,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 175,
-        "worldScrollY": 0,
+        "worldScrollX": 135,
+        "worldScrollY": 206,
         "zoom": 133.446385201265,
         "sgbEnabled": false,
         "customHead": "",
@@ -15932,7 +16134,7 @@
         "customControlsSelect": [
             "Shift"
         ],
-        "debuggerEnabled": true,
+        "debuggerEnabled": false,
         "debuggerScriptType": "editor",
         "debuggerVariablesFilter": "all",
         "debuggerCollapsedPanes": [],
