@@ -7405,7 +7405,7 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "fca3cd2f-ccc0-44ed-bf53-adeb43d8f73b",
+                                "sceneId": "dc20a9d3-7824-4776-8c15-9a9db8263327",
                                 "x": {
                                     "type": "number",
                                     "value": 0
@@ -16626,7 +16626,7 @@
     ],
     "settings": {
         "startSceneId": "dc20a9d3-7824-4776-8c15-9a9db8263327",
-        "startX": 2,
+        "startX": 1,
         "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
@@ -16635,9 +16635,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 100,
+        "worldScrollX": 2477.60009765625,
+        "worldScrollY": 2527.199951171875,
+        "zoom": 412.5,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [

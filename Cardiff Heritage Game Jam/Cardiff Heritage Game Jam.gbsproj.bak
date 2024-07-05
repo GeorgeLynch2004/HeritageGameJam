@@ -8903,24 +8903,14 @@
             "filename": "Title.png"
         },
         {
-            "id": "3ce848f4-1595-4e73-b9df-da3042c00b2b",
-            "name": "welsh-flag-23199_1280",
-            "symbol": "bg_welsh_flag_23199_1280",
-            "width": 160,
-            "height": 106,
-            "imageWidth": 1280,
-            "imageHeight": 853,
-            "filename": "welsh-flag-23199_1280.png"
-        },
-        {
             "id": "84de3caf-5159-4e06-94e2-36e064355e28",
-            "name": "wesh dragon",
+            "name": "welsh dragon",
             "symbol": "bg_wesh_dragon",
             "width": 35,
             "height": 23,
             "imageWidth": 280,
             "imageHeight": 184,
-            "filename": "wesh dragon.png",
+            "filename": "welsh dragon.png",
             "autoColor": true
         }
     ],
@@ -16635,9 +16625,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "dc20a9d3-7824-4776-8c15-9a9db8263327",
-        "startX": 2,
-        "startY": 0,
+        "startSceneId": "3b0af406-0431-4352-a14b-2282106781d5",
+        "startX": 15,
+        "startY": 3,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
@@ -16645,9 +16635,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 100,
+        "worldScrollX": 322.3999938964844,
+        "worldScrollY": 876,
+        "zoom": 412.5,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
