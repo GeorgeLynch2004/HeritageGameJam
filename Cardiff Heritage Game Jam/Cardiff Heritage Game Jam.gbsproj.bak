@@ -3037,7 +3037,7 @@
                                     "type": "direction",
                                     "value": "left"
                                 },
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "11ac9b3d-eda5-4f28-a629-a88502f28d39"
                         }
@@ -3103,7 +3103,7 @@
                                 },
                                 "moveType": "horizontal",
                                 "useCollisions": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "id": "c0ab4f63-bc61-4d10-bedf-7cedb9e82689"
                         },
@@ -5277,9 +5277,19 @@
                             "You have made it to\nCaerphilly Castle's \nInner Ward, defeat the\narchers and taste\nvictory!"
                         ],
                         "avatarId": "",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "93bae362-99ee-4423-8729-cd3e4a92a892"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Don't let the defenders\nreach your position at \nthe bottom of the \ncourtyard!"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "1f2012c1-1cc8-40b1-b8ce-f47a4c847a3c"
                 },
                 {
                     "command": "EVENT_MUSIC_PLAY",
@@ -5296,7 +5306,7 @@
             "autoFadeEventCollapse": true
         },
         {
-            "name": "Title Screen",
+            "name": "Intro Screen",
             "backgroundId": "8148682e-a9ed-4b73-a35a-ba8dae2a63c4",
             "tilesetId": "",
             "width": 20,
@@ -5316,7 +5326,7 @@
                 {
                     "command": "EVENT_WAIT",
                     "args": {
-                        "time": 15,
+                        "time": 5,
                         "frames": 30
                     },
                     "id": "d9549cc4-893b-4c3b-89a9-e15a86ce8943"
@@ -7405,7 +7415,7 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "dc20a9d3-7824-4776-8c15-9a9db8263327",
+                                "sceneId": "fca3cd2f-ccc0-44ed-bf53-adeb43d8f73b",
                                 "x": {
                                     "type": "number",
                                     "value": 0
@@ -7859,7 +7869,7 @@
             "autoFadeEventCollapse": true
         },
         {
-            "name": "Leaning Tower",
+            "name": "Title Screen",
             "backgroundId": "95933b89-792c-43e8-8b76-328574ce07f2",
             "tilesetId": "",
             "width": 20,
@@ -7873,31 +7883,7 @@
             "symbol": "scene_11",
             "x": 120,
             "y": 240,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "cdcfbd52-2151-4e5d-9111-e34da2fe1e5f",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_10",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "03e48817-5d14-4b4b-852f-bda091a344ba",
-                    "x": 9,
-                    "y": 1
-                }
-            ],
+            "actors": [],
             "triggers": [],
             "script": [
                 {
@@ -7919,6 +7905,14 @@
                         "avatarId": ""
                     },
                     "id": "c73625a2-2d63-4b10-bada-52536d9cc5cc"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 5,
+                        "frames": 30
+                    },
+                    "id": "bbc9c9c9-d65a-4729-8d71-14be896524cc"
                 },
                 {
                     "command": "EVENT_SWITCH_SCENE",
@@ -7958,31 +7952,7 @@
             "symbol": "scene_12",
             "x": 896,
             "y": 576,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "51afe0e8-0c6f-4bb9-8e17-c315bf9a8a46",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_55",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "b6432be6-3774-4120-bc6b-3f1dd6cc9ef4",
-                    "x": 9,
-                    "y": 3
-                }
-            ],
+            "actors": [],
             "triggers": [],
             "script": [],
             "playerHit1Script": [],
@@ -8891,6 +8861,7 @@
             "imageWidth": 160,
             "imageHeight": 160,
             "filename": "Test Tower.png",
+            "tileColors": [],
             "autoColor": false
         },
         {
@@ -8901,7 +8872,9 @@
             "height": 8,
             "imageWidth": 184,
             "imageHeight": 64,
-            "filename": "Title.png"
+            "filename": "Title.png",
+            "tileColors": [],
+            "autoColor": false
         },
         {
             "id": "84de3caf-5159-4e06-94e2-36e064355e28",
@@ -8912,6 +8885,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "welsh dragon.png",
+            "tileColors": [],
             "autoColor": true
         }
     ],
@@ -13456,7 +13430,7 @@
             "symbol": "sprite_success",
             "numFrames": 10,
             "filename": "Success.png",
-            "checksum": "fcc2ea7ea47883058dda269ddecd06e4b6b54fe9",
+            "checksum": "78728f2fcddc12132886cbe75ad79a843f2afab6",
             "width": 160,
             "height": 30,
             "states": [
@@ -16626,9 +16600,9 @@
         }
     ],
     "settings": {
-        "startSceneId": "11b9245e-ed46-4f4f-a445-e67bcf8f439e",
-        "startX": 16,
-        "startY": 0,
+        "startSceneId": "dc20a9d3-7824-4776-8c15-9a9db8263327",
+        "startX": 13,
+        "startY": 2,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
@@ -16636,9 +16610,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 154.39999389648438,
-        "worldScrollY": 5.599999904632568,
-        "zoom": 287.5,
+        "worldScrollX": 40,
+        "worldScrollY": 40,
+        "zoom": 140.74681871754456,
         "sgbEnabled": false,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
